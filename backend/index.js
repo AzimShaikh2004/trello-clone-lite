@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "*"
+  origin: "https://trello-clone-lite.vercel.app"
 }));
 app.use(express.json());
 
