@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://trello-clone-lite.onrender.com/api",
 });
 
 // Add token to every request if it exists
